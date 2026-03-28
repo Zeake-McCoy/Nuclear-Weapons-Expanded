@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SmallWarhead_Nuclear" />
+            <Icon>Textures\Icons\Warhead_Nuclear.dds</Icon>
+            <DisplayName>Mini Nuclear Warhead</DisplayName>
+            <Description>Description_Warhead</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Warhead" Subtype="SmallWarhead_Nuclear" />
+                <Block Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead_Nuclear" />
+                <Block Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead_NuclearSmall" />
+				<Block Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead_NuclearLarge" />
+                <Block Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead_NuclearLarge" />
+            </Blocks>
+        </BlockVariantGroup>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LargeMissileLauncher_Nuclear" />
+            <Icon>Textures\Icons\Missile_Launcher_Nuclear.dds</Icon>
+            <DisplayName>Mini Nuclear Warhead</DisplayName>
+            <Description>Description_Warhead</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_WeaponBlock" Subtype="LargeMissileLauncher_Nuclear" />
+                <Block Type="MyObjectBuilder_WeaponBlock" Subtype="SmallRocketLauncherReload_Nuclear" />
+			</Blocks>
+        </BlockVariantGroup>
+    </BlockVariantGroups>
+</Definitions>

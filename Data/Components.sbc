@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Components>
+	<Component>
+		<Id>
+			<TypeId>Component</TypeId>
+			<SubtypeId>DemonCore</SubtypeId>
+		</Id>
+		<DisplayName>Demon Core</DisplayName>
+		<Icon>Textures\Icons\Demon_Core.dds</Icon>
+		<Size>
+			<X>2.7</X>
+			<Y>2.7</Y>
+			<Z>2.7</Z>
+		</Size>
+		<Mass>100</Mass>
+		<Volume>70.0</Volume>
+		<Model>Models\Components\ExplosivesComponent.mwm</Model>
+		<PhysicalMaterial>Metal</PhysicalMaterial>
+		<MaxIntegrity>150</MaxIntegrity>
+		<DropProbability>0.95</DropProbability>
+		<Health>50</Health>
+		<CanPlayerOrder>false</CanPlayerOrder>
+		
+		<MinimumAcquisitionAmount>125</MinimumAcquisitionAmount>
+        <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+	</Component>
+    </Components>
+</Definitions>

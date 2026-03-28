@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId />
+			</Id>
+			<DisplayName>Nuclea Weapons Expanded</DisplayName>
+			<Name>NWE</Name>
+			<StrictSearch>true</StrictSearch>
+			<ItemIds>
+				<string>Centrifuge</string>
+				<string>Core_Fabricator</string>
+				<string>SmallWarhead_Nuclear</string>
+				<string>LargeWarhead_Nuclear</string>
+				<string>LargeWarhead_Nuclear</string>
+				<string>LargeWarhead_NuclearLarge</string>
+				<string>LargeMissileLauncher_Nuclear</string>
+				<string>SmallRocketLauncherReload_Nuclear</string>
+			</ItemIds>
+		</Category>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+          <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+          </Id>
+          <DisplayName>DisplayName_Category_Production</DisplayName>
+          <Name>Production</Name>
+          <ItemIds>
+            	<string>Centrifuge</string>
+				<string>Fabricator</string>
+          </ItemIds>
+		</Category>
+<!--		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+          <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+          </Id>
+          <DisplayName>DisplayName_Category_Block_Weapons</DisplayName>
+          <Name>Block Weapons</Name>
+          <ItemIds>
+				<string>SmallWarhead_Nuclear</string>
+				<string>LargeWarhead_Nuclear</string>
+				<string>LargeWarhead_Nuclear</string>
+				<string>LargeWarhead_NuclearLarge</string>
+				<string>LargeMissileLauncher_Nuclear</string>
+				<string>SmallRocketLauncherReload_Nuclear</string>
+          </ItemIds>
+			</Category>-->
+	</CategoryClasses>
+</Definitions>

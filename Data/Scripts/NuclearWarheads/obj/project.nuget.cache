@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mzG8tv1MsdYHqNsqIJglloDAohUDW1kHZNG7Ke9t7gE6jGeeXGlpSYCFttNcc6AtQm4LDb/RD4uJS6kGv/h7LQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\18587\\AppData\\Roaming\\SpaceEngineers\\Mods\\NuclearWarheads\\Data\\Scripts\\NuclearWarheads\\NuclearWarheads.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\18587\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\18587\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

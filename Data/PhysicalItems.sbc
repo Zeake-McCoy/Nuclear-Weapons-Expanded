@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>EnrichedUranium</SubtypeId>
+      </Id>
+      <DisplayName>Enriched Uranium</DisplayName>
+      <Icon>Textures\Icons\Enriched_Uranium.dds</Icon>
+      <Model>Models\Enriched_Uranium\Enriched_Uranium.mwm</Model>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>500</Mass>
+      <Volume>300</Volume>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>ContainmentBarrel</SubtypeId>
+      </Id>
+      <DisplayName>Containment Barrel</DisplayName>
+	  <Icon>Textures\Icons\Containment_Barrel.dds</Icon>
+	  <Model>Models\Containment_Barrel\Containment_Barrel.mwm</Model>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>100</Mass>
+      <Volume>80</Volume>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

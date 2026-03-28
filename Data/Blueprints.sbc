@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+
+		<!-- Uranium Enrichment -->
+
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>EnrichedUranium</SubtypeId>
+			</Id>
+			<DisplayName>Enriched Uranium</DisplayName>
+			<Icon>Textures\Icons\Enriched_Uranium.dds</Icon>
+			<Prerequisites>
+				<Item Amount="200" TypeId="Ingot" SubtypeId="Uranium" />
+				<Item Amount="1" TypeId="Ingot" SubtypeId="ContainmentBarrel" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Ingot" SubtypeId="EnrichedUranium" />
+			<BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+		</Blueprint>
+    	<Blueprint>
+      			<Id>
+        			<TypeId>BlueprintDefinition</TypeId>
+        			<SubtypeId>DemonCore</SubtypeId>
+      			</Id>
+      			<DisplayName>Demon Core</DisplayName>
+      			<Icon>Textures\Icons\Demon_Core.dds</Icon>
+      			<Prerequisites>
+        			<Item Amount="10" TypeId="Ingot" SubtypeId="EnrichedUranium" />
+					<Item Amount="100" TypeId="Ingot" SubtypeId="Platinum" />
+					<Item Amount="20" TypeId="Component" SubtypeId="Explosives" />
+      			</Prerequisites>
+      			<Result Amount="1" TypeId="Component" SubtypeId="DemonCore" />
+      			<BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    	</Blueprint>
+		<Blueprint>
+      			<Id>
+        			<TypeId>BlueprintDefinition</TypeId>
+        			<SubtypeId>ContainmentBarrel</SubtypeId>
+      			</Id>
+      			<DisplayName>Containment Barrel</DisplayName>
+      			<Icon>Textures\Icons\Containment_Barrel.dds</Icon>
+      			<Prerequisites>
+					<Item Amount="6" TypeId="Ingot" SubtypeId="Gold" />
+					<Item Amount="3" TypeId="Ingot" SubtypeId="Uranium" />
+					<Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
+					<Item Amount="16" TypeId="Ingot" SubtypeId="Silicon" />
+					<Item Amount="8" TypeId="Ingot" SubtypeId="Silver" />
+					<Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+					<Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+      			</Prerequisites>
+      			<Result Amount="1" TypeId="Ingot" SubtypeId="ContainmentBarrel" />
+      			<BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    	</Blueprint>
+		<Blueprint>
+				<Id>
+					<TypeId>BlueprintDefinition</TypeId>
+					<SubtypeId>Missile200mm_Nuclear</SubtypeId>
+				</Id>
+				<DisplayName>Nuclear Missile</DisplayName>
+				<Icon>Textures\Icons\Nuclear_Missile.dds</Icon>
+				<Prerequisites>
+					<Item Amount="55" TypeId="Ingot" SubtypeId="Iron" />
+					<Item Amount="7" TypeId="Ingot" SubtypeId="Nickel" />
+					<Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+					<Item Amount="8" TypeId="Component" SubtypeId="DemonCore" />
+					<Item Amount="60" TypeId="Component" SubtypeId="Explosives" />
+					<Item Amount="4" TypeId="Ingot" SubtypeId="Platinum" />
+					<Item Amount="12" TypeId="Ingot" SubtypeId="Magnesium" />
+				</Prerequisites>
+				<Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm_Nuclear" />
+				<BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+		</Blueprint>
+<!--		<Blueprint>
+		  <Id>
+			<TypeId>BlueprintDefinition</TypeId>
+			<SubtypeId>T2_AQD_BP_ARM_A1</SubtypeId>
+		  </Id>
+		  <DisplayName>{LOC:DisplayName_T2_AQD_BP_ARM_A1}</DisplayName>
+		  <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
+		  <Prerequisites>
+			<Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+		  </Prerequisites>
+		  <Results>
+			<Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_ARM_A1" />
+		  </Results>
+		  <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+		</Blueprint>
+-->	</Blueprints>
+</Definitions>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>Centrifuge</SubtypeId>
+      </Id>
+      <DisplayName>Centrifuge</DisplayName>
+      <Description>Enriches Uranium Used In The Production Of Enriched Nuclear Cores.</Description>
+      <Icon>Textures\Icons\Centrifuge.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Centrifuge\Centrifuge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="SteelPlate" Count="150" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+				<MountPoint Side="Bottom" StartX="0.50" StartY="0.00" EndX="2.50" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Centrifuge\Centrifuge_BS1.mwm"/>
+			</BuildProgressModels>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>Centrifuge</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <OreAmountPerPullRequest>3000</OreAmountPerPullRequest>
+      <GuiVisible>true</GuiVisible>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>10.0</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>Enrichment</Class>
+      </BlueprintClasses>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <AssemblySpeed>1.0</AssemblySpeed>
+      <DamageEffectId>212</DamageEffectId>
+      <Description>Description_Refinery</Description>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>100</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

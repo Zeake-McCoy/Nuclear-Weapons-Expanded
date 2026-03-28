@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClasses>
+		<Class>
+			<Id>
+			  <TypeId>BlueprintClassDefinition</TypeId>
+			  <SubtypeId>Enrichment</SubtypeId>
+			</Id>
+			<DisplayName>Enrichment</DisplayName>
+			<Icon>Textures\Icons\Enriched_Uranium.dds</Icon>
+			<HighlightIcon>Textures\Icons\Enriched_Uranium.dds</HighlightIcon>
+			<FocusIcon>Textures\Icons\Enriched_Uranium.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		  </Class>
+		  <Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Fabrication</SubtypeId>
+			</Id>
+			<Description>Fabrication</Description>
+			<Icon>Textures\Icons\Demon_Core.dds</Icon>
+			<HighlightIcon>Textures\Icons\Demon_Core.dds</HighlightIcon>
+			<FocusIcon>Textures\Icons\Demon_Core.dds</FocusIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="Enrichment" BlueprintSubtypeId="EnrichedUranium" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/Centrifuge" />
+		<Entry Class="Fabrication" BlueprintSubtypeId="DemonCore"/>
+		<Entry Class="Components" BlueprintSubtypeId="ContainmentBarrel"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/Fabricator" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Warhead/LargeWarhead_Nuclear" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Warhead/LargeWarhead_NuclearLarge" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="SmallMissileLauncher/LargeMissileLauncher_Nuclear" />
+	</BlueprintClassEntries>
+</Definitions>
