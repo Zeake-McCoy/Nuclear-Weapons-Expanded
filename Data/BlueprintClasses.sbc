@@ -30,6 +30,8 @@
 		<Entry Class="Enrichment" BlueprintSubtypeId="EnrichedUranium" />
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/Centrifuge" />
 		<Entry Class="Fabrication" BlueprintSubtypeId="DemonCore"/>
+		<Entry Class="Fabrication" BlueprintSubtypeId="MissileDemon"/>
+		<Entry Class="EliteConsumables" BlueprintSubtypeId="Missile200mm_Nuclear"/>
 		<Entry Class="Components" BlueprintSubtypeId="ContainmentBarrel"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/Fabricator" />
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Warhead/LargeWarhead_Nuclear" />

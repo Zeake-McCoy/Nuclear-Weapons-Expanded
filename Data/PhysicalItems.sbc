@@ -35,5 +35,22 @@
       <Volume>80</Volume>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>MissileDemon</SubtypeId>
+      </Id>
+      <DisplayName>Missile Demon</DisplayName>
+	  <Icon>Textures\Icons\Demon_Core.dds</Icon>
+	  <Model>Models\Demon_Core\CAPOMissileWarhead.mwm</Model>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>80</Mass>
+      <Volume>50</Volume>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
   </PhysicalItems>
 </Definitions>
