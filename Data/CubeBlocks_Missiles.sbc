@@ -4,7 +4,7 @@
   <CubeBlocks>
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
-        <TypeId>SmallMissileLauncher</TypeId>
+        <TypeId>SmallMissileLauncherReload</TypeId>
         <SubtypeId>LargeMissileLauncher_Nuclear</SubtypeId>
       </Id>
       <DisplayName>Nuclear Missile Launcher</DisplayName>

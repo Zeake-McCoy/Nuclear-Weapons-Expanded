@@ -36,6 +36,6 @@
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/Fabricator" />
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Warhead/LargeWarhead_Nuclear" />
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Warhead/LargeWarhead_NuclearLarge" />
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="SmallMissileLauncher/LargeMissileLauncher_Nuclear" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="SmallMissileLauncherReload/LargeMissileLauncher_Nuclear" />
 	</BlueprintClassEntries>
 </Definitions>
